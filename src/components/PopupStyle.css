@@ -1,0 +1,26 @@
+.popup {
+    position: absolute;
+    top: 99px;
+    width: 775px;
+    height: 500px;
+    background-color: #FFF;
+    border: 1px solid black;
+}
+
+.inner-popup {
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-width: 640px;
+    background-color: white;
+}
+
+.inner-popup .close-button{
+    position: absolute;
+    top: 10px;
+    left: 710px;
+}
+
+.close-button {
+    color: red;
+}

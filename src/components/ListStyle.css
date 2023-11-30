@@ -1,0 +1,131 @@
+.container {
+    position: relative;
+    padding-top: 70px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background-color: #FFF;
+}
+  
+.column {
+    max-width: 800px; /* Set maximum width for the container */
+    width: 100%;
+}
+  
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+  
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+.table th, .table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+  
+.table th {
+    background-color: #f2f2f2;
+}
+  
+.table td {
+    cursor: pointer;
+}
+  
+.table td:hover {
+    background-color: #f9f9f9;
+}
+
+.close-button {
+    color: red;
+}
+.description {
+    position: relative;
+    display: flexbox;
+    top: -30px;
+    left: 230px;
+    font-size: 13px;
+}
+
+.description .name {
+    color: red;
+    font-size: 30px;
+    
+}
+
+.stats {
+    position: absolute;
+    display: flexbox;
+    top: 150px;
+    left: 30px;
+    font-size: 13px;
+}
+
+.stats .stat{
+    color: red;
+    font-size: 18px;
+}
+
+.abilities {
+    position: absolute;
+    display: flexbox;
+    top: 400px;
+    left: 30px;
+    font-size: 13px;
+}
+
+.abilities .ability{
+    color: red;
+    font-size: 18px;
+}
+
+.types {
+    position: absolute;
+    display: flexbox;
+    top: 310px;
+    left: 30px;
+    font-size: 13px;
+}
+
+.types .type{
+    color: red;
+    font-size: 18px;
+}
+
+.effectiveness {
+    position: absolute;
+    display: flexbox;
+    top: 60px;
+    left: 650px;
+    max-height: 100px;
+    font-size: 13px;
+}
+
+.reglog {
+    position: absolute;
+    top: 35px;
+    margin-left: 1200px;
+    background-color: rgb(233, 210, 210);
+}
+
+.logout {
+    position: absolute;
+    top: 35px;
+    margin-left: 1200px;
+    background-color: rgb(233, 210, 210);
+}
+
+.visual{
+    position: relative;
+    display: flex;
+    top: 35px;
+    right: 500px;
+    background-color: rgb(233, 210, 210);
+    font-size: 17px;
+}
